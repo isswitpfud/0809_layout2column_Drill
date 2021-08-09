@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  background-color: #c4e2d1;
+}
+
+ul {
+  list-style: none;
+}
+
+div#wrap {
+  width: 670px;
+  margin: 20px auto;
+  border: 1px dotted #aaa;
+  background-color: #fff;
+}
+
+header#header {
+  width: 100%;
+  height: 136px;
+  padding: 4px 38px;
+  text-align: center;
+  background-color: #02261e;
+  display: flex;
+}
+
+header#header h1 {
+  padding-right: 8px;
+  color: #fcfcc5;
+  font-size: 88px;
+  font-weight: bold;
+  letter-spacing: -7px;
+}
+
+header#header p {
+  font-size: 30px;
+  height: 120px;
+  line-height: 154px;
+  color: #8fa328;
+  font-weight: bold;
+}
+
+header#header span {
+  font-size: 50px;
+}
+
+header#header h2 {
+  color: #a0ab9e;
+  font-size: 63px;
+  height: 120px;
+  line-height: 130px;
+}
+
+#mainArea {
+  display: table;
+}
+
+#gnb {
+  width: 150px;
+  padding: 10px 0 0 20px;
+  background-color: #a8b49e;
+}
+
+#gnb li a {
+  font-size: 15px;
+  line-height: 38px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+#gnb li a:hover {
+  color: #486032;
+}
+
+div#contents {
+  vertical-align: top;
+}
+/* 
+--> display:table;에서는 bottom정렬때문에
+      상위(top) 정렬로 설정뒤 들뜸 현상 조절
+ */
+
+div#contents h3.title {
+  color: #c1bc40;
+  font-size: 25px;
+  font-family: 궁서체;
+  padding: 12px 24px;
+  background-color: #472006;
+}
+
+div#contents .article p {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: justify;
+  padding: 23px;
+}
+
+#footer {
+  width: 100%;
+  background-color: #81957c;
+  padding: 12px 26px;
+  font-size: 16px;
+  color: #000;
+  display: inline-block;
+}
+
+.tblRow {
+  display: table-row;
+}
+
+.tblCell {
+  display: table-cell;
+}
